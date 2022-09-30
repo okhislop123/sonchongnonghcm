@@ -299,9 +299,9 @@ if (isset($_SESSION['id_thanhvien']) and $_SESSION['id_thanhvien'] != "") {
                                             <?php } ?>
                                         </select>
                                     </div>
-                                    <div class="form-group">
-                                        <input type="text" required class="form-control" placeholder="<?= ($lang == 'vn') ? 'Mã bão vệ' : 'Enter the security code' ?>" id="captcha" name="captcha" style="background: url(./sources/capchaimage.php) center right no-repeat">
-                                    </div>
+                                    <!-- <div class="form-group">
+                                        <input type="text" required class="form-control" placeholder="<?= ($lang == 'vn') ? 'Mã bão vệ' : 'Enter the security code' ?>" id="captcha" name="captcha" style="background: url(<?= URLPATH . 'sources/capchaimage.php' ?>) center right no-repeat">
+                                    </div> -->
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-login" name="guidonhang">Đặt hàng</button>
                                         <div class=" clearfix"></div>

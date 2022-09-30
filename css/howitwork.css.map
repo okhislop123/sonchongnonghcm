@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AACI,OADG,AAAA,UAAU,CACb,QAAQ,CAAA;EACJ,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "../scss/pages/howitwork.scss",
+        "../scss/helper/_variable.scss",
+        "../scss/helper/_mixin.scss",
+        "../scss/helper/_function.scss"
+    ],
+    "names": [],
+    "file": "howitwork.css"
+}

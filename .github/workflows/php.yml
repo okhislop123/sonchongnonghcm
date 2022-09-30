@@ -1,0 +1,38 @@
+name: PHP Composer
+
+on:
+  push:
+    branches: ["master"]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: push deploy
+        run: |
+          GITHUB_REPO_URL="https://github.com/${{ github.repository }}/"
+          GITHUB_COMMIT_URL="${GITHUB_REPO_URL}commit/"
+          BOT_TOKEN="5520454679:AAHaUbh7dJgftwho8SU27mzgTqmz51RRp2E"
+          WEBHOOK_URL="https://api.telegram.org/bot{$BOT_TOKEN}/sendMessage"
+          CHAT_ID="-762621061"
+          REPO_NAME="${{ github.event.repository.name }}"
+          GITHUB_BRANCH_COMMITS_URL="${GITHUB_REPO_URL}commits/${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}"
+          GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
+          SLACK_HEADER="[${REPO_NAME}](${GITHUB_REPO_URL})\n"
+          TEXTS=${SLACK_HEADER}
+          MESSAGES=$(echo '{"chat_id":"'"${CHAT_ID}"'","text":"'"${TEXTS}"'", "parse_mode" : "markdown"}')
+          echo "${MESSAGES}"
+          curl -X POST -H 'Content-type: application/json' --data "${MESSAGES}" ${WEBHOOK_URL}
+      - name: deploy CD
+        run: curl https://sonchongnonghcm.com/M0Kc0V2hUaM6jYOfJ7YZ.php?t=byUAbrWWLT49OOia9LIN
+
+    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Docs: https://getcomposer.org/doc/articles/scripts.md
+
+    # - name: Run test suite
+    #   run: composer run-script test

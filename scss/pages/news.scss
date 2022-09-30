@@ -1,0 +1,25 @@
+@import '../helper/_variable.scss';
+@import '../helper/_mixin.scss';
+@import '../helper/_function.scss';
+
+.item-new{
+    .item-n02{
+        margin: 15px 0;
+        @include dFlex("","");
+        .img-tintuc{
+            width: 230px;
+            height: 170px;
+        }
+        .noidung-tt{
+            margin-left: 10px;
+            width: calc(100% - 240px);
+            text-align: left;
+            h3{
+                line-height: 22px;
+            }
+            >div{
+                text-align: left;
+            }
+        }
+    }
+}

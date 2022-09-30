@@ -1,0 +1,30 @@
+@import '../helper/_variable.scss';
+@import '../helper/_mixin.scss';
+@import '../helper/_function.scss';
+
+.productdetail{
+    .content{
+       .item{
+            @include dFlex("","");
+            >div{
+                width:50%;
+                padding: 0 30px;
+                margin: 20px 0;
+                .img{
+                    height: 500px;
+                    img{
+                        width:100%;
+                        height:100%;
+                        object-fit: contain;
+                    }
+                }
+                p{
+                    font-family: ggsanr;
+                }
+                a{
+                    @include button;
+                }
+            }
+       }
+    }
+} 

@@ -1,0 +1,46 @@
+@import '../helper/_variable.scss';
+@import '../helper/_mixin.scss';
+@import '../helper/_function.scss';
+
+section.gallarydetail{
+    .content{
+        max-width:900px;
+        margin: auto;
+        .item{
+            margin-bottom: 30px;
+            .img{
+                height:435px;
+                img{
+                    width:100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .info {
+                p{
+                    font-family: ggsanr;
+                }
+                >a{
+                    display: inline-block;
+                    background: c("c1");
+                    padding:10px 40px;
+                    margin-top: 30px;
+                    color:#fff;
+                    border-radius: 30px;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    box-shadow: 0 14px 28px #ccc;
+                    transition: .5s;
+                    &:hover{
+                        transform: translateY(-5px);
+                        box-shadow: 0 14px 38px #ccc;
+                    }
+                }
+                
+            }
+        }
+    }
+    .content__detail{
+        font-family: ggsanr;
+    }
+}

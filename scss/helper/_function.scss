@@ -1,0 +1,7 @@
+@function c($value){
+    @if(map-has-key($map: $color, $key: $value)){
+        @return map-get($map: $color, $key: $value);
+    }
+    @error '#{$value} not exits';
+    @return "";
+}

@@ -110,7 +110,7 @@ function luudulieu(){
 			}
 			$data['hinh_anh'] = $file;
 		}
-		$data['id_loai'] = addslashes($_POST['id_loai']);
+		$data['id_loai'] = addslashes($_POST['id_loai']) ? addslashes($_POST['id_loai']) : 0;
 
 		$data['ten_vn'] = $d->clear(addslashes($_POST['ten_vn']));
 		$data['mamau'] = $d->clear(addslashes($_POST['mamau']));
@@ -283,7 +283,7 @@ function luudulieu(){
 			$data['hinh_anh'] = $file;
 		}
 		
-		$data['id_loai'] = addslashes($_POST['id_loai']);
+		$data['id_loai'] = addslashes($_POST['id_loai']) ?addslashes($_POST['id_loai']) : 0 ;
 		$data['mamau'] = $d->clear(addslashes($_POST['mamau']));
 		$data['ten_vn'] = $d->clear(addslashes($_POST['ten_vn']));
 		$data['ten_us'] = $d->clear(addslashes($_POST['ten_us']));
@@ -356,6 +356,9 @@ function luudulieu(){
 			$data['hen_ngay_dang'] = $hen_ngay_dang;
 		}
 		// var_dump($data['hen_ngay']); die;
+		ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 		$d->setTable('#_people');
 		if($idsp = $d->insert($data))
 		{

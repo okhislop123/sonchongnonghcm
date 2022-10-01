@@ -96,7 +96,6 @@ if (isset($_POST['guidonhang'])) {
                     $data_2['ma_dh'] = $ma_donhang;
                     $data_2['id_dh'] = $id_don;
                     $data_2['gia'] = $price;
-                    $data_2['khuyen_mai'] = $product['khuyen_mai'];
                     $data_2['id_sp'] = $id_product;
                     $data_2['so_luong'] = $value['so_luong'];
                     $data_2['mau'] = $value['mau'];

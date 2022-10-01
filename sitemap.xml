@@ -11,130 +11,134 @@
 				  	</url>
 						<url>
 						 <loc>http://localhost:8080/.html</loc>
-						 <priority>0.573</priority>
+						 <priority>0.507</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/.html</loc>
-						 <priority>0.567</priority>
+						 <priority>0.756</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/.html</loc>
-						 <priority>0.61</priority>
+						 <priority>0.651</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/.html</loc>
-						 <priority>0.505</priority>
+						 <priority>0.736</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/.html</loc>
-						 <priority>0.792</priority>
+						 <priority>0.665</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/.html</loc>
-						 <priority>0.715</priority>
+						 <priority>0.726</priority>
+						</url>
+						<url>
+						 <loc>http://localhost:8080/.html</loc>
+						 <priority>0.582</priority>
 						</url>
 					<url>
 					 <loc>http://localhost:8080/gioi-thieu.html</loc>
-					 <priority>0.599</priority>
+					 <priority>0.693</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/ve-chung-toi.html</loc>
-					 <priority>0.551</priority>
+					 <priority>0.746</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/san-pham.html</loc>
-					 <priority>0.54</priority>
+					 <priority>0.728</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/chat-luong-san-pham.html</loc>
-					 <priority>0.73</priority>
+					 <priority>0.637</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/du-an.html</loc>
-					 <priority>0.596</priority>
+					 <priority>0.621</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/tu-van-ky-thuat.html</loc>
-					 <priority>0.674</priority>
+					 <priority>0.53</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/tin-tuc.html</loc>
-					 <priority>0.62</priority>
+					 <priority>0.591</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/video.html</loc>
-					 <priority>0.627</priority>
+					 <priority>0.716</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/lien-he.html</loc>
-					 <priority>0.552</priority>
+					 <priority>0.787</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/video-be-c.html</loc>
-					 <priority>0.729</priority>
+					 <priority>0.718</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/gio-hang.html</loc>
-					 <priority>0.625</priority>
+					 <priority>0.777</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/doi-tac-cua-chung-toi.html</loc>
-					 <priority>0.76</priority>
+					 <priority>0.566</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/son-ngoai-that.html</loc>
-					 <priority>0.545</priority>
+					 <priority>0.68</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/son-noi-that.html</loc>
-					 <priority>0.588</priority>
+					 <priority>0.791</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/son-nhu-vang.html</loc>
-					 <priority>0.779</priority>
+					 <priority>0.52</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/martin-bong-clear.html</loc>
-					 <priority>0.628</priority>
+					 <priority>0.642</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/dung-dich-loai-bo-nam-moc.html</loc>
-					 <priority>0.589</priority>
+					 <priority>0.64</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/slide.html</loc>
-					 <priority>0.561</priority>
+					 <priority>0.678</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/ban-can-biet.html</loc>
-					 <priority>0.692</priority>
+					 <priority>0.545</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/thong-tin.html</loc>
-					 <priority>0.501</priority>
+					 <priority>0.527</priority>
 					</url>
 					<url>
 					 <loc>http://localhost:8080/thuong-hieu.html</loc>
-					 <priority>0.8</priority>
+					 <priority>0.632</priority>
 					</url>
 						<url>
 						 <loc>http://localhost:8080/san-pham-5.html</loc>
-						 <priority>0.535</priority>
+						 <priority>0.501</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/san-pham-4.html</loc>
-						 <priority>0.797</priority>
+						 <priority>0.73</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/san-pham-3.html</loc>
-						 <priority>0.754</priority>
+						 <priority>0.565</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/san-pham-2.html</loc>
-						 <priority>0.744</priority>
+						 <priority>0.509</priority>
 						</url>
 						<url>
 						 <loc>http://localhost:8080/san-pham-1.html</loc>
-						 <priority>0.57</priority>
+						 <priority>0.686</priority>
 						</url>
 			</urlset>

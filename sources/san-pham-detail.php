@@ -55,7 +55,7 @@ $active = ($ctsp[0]['khuyen_mai'] != '' || $ctsp[0]['khuyen_mai'] != 0) ? 'activ
                 <div class="col-md-6 col-sm-6 hinh-sp">
                     <div class="zoom-gallery">
                         <a class="MagicZoom" id="Zoom-v" title="" href="<?= URLPATH ?>img_data/images/<?= $ctsp[0]['hinh_anh'] ?>">
-                            <img src="<?= URLPATH ?>thumb.php?src=<?= URLPATH ?>img_data/images/<?= $ctsp[0]['hinh_anh'] ?>&w=500&h=400">
+                            <img src="<?= URLPATH ?>img_data/images/<?= $ctsp[0]['hinh_anh'] ?>">
                         </a>
                     </div>
                     <?php if (count($hinh_anh_sp) > 0) { ?>

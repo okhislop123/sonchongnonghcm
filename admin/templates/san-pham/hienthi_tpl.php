@@ -107,7 +107,7 @@
 						</td>
 						</td>
 						<td>
-							<a href="index.php?p=san-pham&a=edit&id=<?= $items[$i]['id'] ?>&page=<?= @$_GET['page'] ?>"><?= ($items[$i]['hinh_anh'] <> '') ? "<img src='" . URLPATH . "thumb.php?src=" . URLPATH . "img_data/images/" . $items[$i]['hinh_anh'] . "&w=70&h=50&zc=2'>" : ""; ?></a>
+							<a href="index.php?p=san-pham&a=edit&id=<?= $items[$i]['id'] ?>&page=<?= @$_GET['page'] ?>"><?= ($items[$i]['hinh_anh'] <> '') ? "<img style='width:80px;height:80px;object-fit:contain' src='". URLPATH . "img_data/images/" . $items[$i]['hinh_anh'] . "'>" : ""; ?></a>
 						</td>
 
 						<td>

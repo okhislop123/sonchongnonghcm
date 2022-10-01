@@ -3461,7 +3461,6 @@ h2.tieude-home::after {
 
 .zoom-gallery {
   min-height: 400px;
-  max-height: 400px;
   background: transparent;
   display: flex;
   align-items: center;

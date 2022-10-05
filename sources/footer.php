@@ -55,10 +55,10 @@ $productCategory = $d->o_fet("select * from #_category where id_loai = 1291");
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-6 ">
-                        <h4 class="title-f"><?= $category_ft1["ten_" . $lang] ?></h4>
+                        <h4 class="title-f"><?= $category_ft["ten_" . $lang] ?></h4>
                         <ul class="ftmenu">
                             <!-- <li><a href="<?= URLPATH ?>"><?= _trangchu ?></a></li> -->
-                            <?php foreach ($project__list1 as $key => $item) { ?>
+                            <?php foreach ($project__list as $key => $item) { ?>
                                 <li><a href="<?= URLPATH . $item['alias_' . $lang] . '.html' ?>"><?= $item['ten_' . $lang] ?></a></li>
                             <?php } ?>
                         </ul>
@@ -70,15 +70,7 @@ $productCategory = $d->o_fet("select * from #_category where id_loai = 1291");
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 ">
-                        <h4 class="title-f"><?= $category_ft["ten_" . $lang] ?></h4>
-                        <ul class="ftmenu">
-                            <!-- <li><a href="<?= URLPATH ?>"><?= _trangchu ?></a></li> -->
-                            <?php foreach ($project__list as $key => $item) { ?>
-                                <li><a href="<?= URLPATH . $item['alias_' . $lang] . '.html' ?>"><?= $item['ten_' . $lang] ?></a></li>
-                            <?php } ?>
-                        </ul>
-                    </div>
+
                 </div>
 
             </div>

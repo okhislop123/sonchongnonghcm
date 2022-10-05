@@ -219,7 +219,7 @@
 									Zalo:
 								</td>
 								<td class="td_right">
-									<input class="input form-control  width400" name="toado" value="<?= $items[0]['toa_do'] ?>" />
+									<input class="input form-control  width400" name="toa_do" value="<?= $items[0]['toa_do'] ?>" />
 								</td>
 							</tr>
 						</tbody>
